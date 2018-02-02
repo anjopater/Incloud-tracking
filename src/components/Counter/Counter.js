@@ -238,7 +238,7 @@ class Counter extends Component {
                             <Icon name='clock'/>{tracker.time}
                         </Table.Cell>
                         <Table.Cell colSpan='3'>
-                            <Icon name='text'/>{tracker.description}
+                            <Icon/>{tracker.description}
                         </Table.Cell>
                         <Table.Cell colSpan='3'>
                             <Icon name='clock'/>{moment(tracker.date).format('MMM/DD/YYYY')}
