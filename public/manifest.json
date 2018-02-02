@@ -1,0 +1,9 @@
+{
+  "short_name": "traking",
+  "name": "traking",
+  "icons": [],
+  "start_url": "./?utm_source=web_app_manifest",
+  "background_color": "#039be6",
+  "theme_color": "#039be6",
+  "display": "standalone"
+}
