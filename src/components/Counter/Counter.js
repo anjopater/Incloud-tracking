@@ -33,7 +33,7 @@ class Counter extends Component {
             interval: '',
 
             term: '',
-            limit: 8,
+            limit: 5,
 
             startDate: moment(),
             endDate: moment(),
@@ -104,7 +104,7 @@ class Counter extends Component {
         const dataSearch = {
             data: {
                 term: term,
-                limit: 8
+                limit: 5
             }
         };
         api
@@ -157,7 +157,7 @@ class Counter extends Component {
                 term: '',
                 limit: limit
                     ? limit
-                    : 8
+                    : 5
             }
         };
         api
@@ -180,7 +180,7 @@ class Counter extends Component {
                 data: {
                     startDate: date,
                     endDate: this.state.endDate,
-                    limit: 8
+                    limit: 5
                 }
             };
 
@@ -200,7 +200,7 @@ class Counter extends Component {
                 data: {
                     startDate: this.state.startDate,
                     endDate: date,
-                    limit: 8
+                    limit: 5
                 }
             };
             api
@@ -214,7 +214,7 @@ class Counter extends Component {
 
     onLoadMore = () => {
         this.setState({
-            limit: this.state.limit + 8
+            limit: this.state.limit + 5
         });
         this.fetchAllTracks(this.state.limit + 5);
     };
