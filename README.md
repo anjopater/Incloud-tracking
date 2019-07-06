@@ -1,5 +1,5 @@
 
-# Traking app
+# Tracking app
 
 ## Techs and libraries
 - Node.js
